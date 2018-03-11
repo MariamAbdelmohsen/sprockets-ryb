@@ -36,14 +36,14 @@ if(mysqli_num_rows($result) > 0)
 }
 
 ?>
-<?php include 'includes/header.php';?>
+<?php get_header();?>
 <?php
     
 if($Feedback == '')
 {//data exists, show it
 
     echo '<div><p>';
-    echo '<img src="img/ryb/ryb' . $id . '.jpg" /><br />';
+    echo '<img src="images/ryb-prod/ryb' . $id . '.jpg" /><br />';
     echo '<blockquote>' . $quote . '</blockquote>';
     echo '</p></div>'; 
     
@@ -60,4 +60,4 @@ echo '<h1><a href="ryb_list.php">GO BACK</a></h1>';
 @mysqli_close($iConn);
 
 ?>
-<?php include 'includes/footer.php';?>
+<?php get_footer();?>

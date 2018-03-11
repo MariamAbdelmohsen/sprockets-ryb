@@ -1,4 +1,4 @@
 <?php include 'includes/config.php' ?>
-<?php include 'includes/header.php' ?>
+<?php get_header()?>
           <p>A clean blog for a clean mind.</p>
-<?php include 'includes/footer.php' ?>
+<?php get_footer()?>

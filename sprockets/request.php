@@ -1,5 +1,5 @@
 <?php include 'includes/config.php' ?>
-<?php include 'includes/header.php' ?>
+<?php get_header()?>
 <h2>Request</h2>
 <?php
 //email4.php
@@ -69,14 +69,4 @@ if(isset($_POST['Submit']))
     </form>
     '; 
 }
-?>
-<?php include 'includes/footer.php'; 
-    function cleanblog_clean_post($key)
-{
-        if(isset($_POST[$key])){
-            return strip_tags(trim($_POST[$key]));
-        }else{
-            return '';
-        }
-}
-?>
+get_footer()?>

@@ -1,8 +1,8 @@
-<?php include 'includes/config.php' ?>
-<?php include 'includes/header.php' ?>
+<?php include 'includes/config.php'?>
+<?php get_header()?>
 <h1><em>Row Yr Boat &#40;Achievement Unlocked&#41;</em></h1>
 <h3>Written by <a href="http://www.wesleykandrews.com/" target="_blank">Wesley K. Andrews</a> and directed by <a href="http://www.growlingwillow.com">Catherine Blake Smith</a>. Dramaturgy by <a href="http://el-nicol.com/" target="_blank">L. Nicol Cabe</a>.</h3><br />
 <section>At <a href="http://www.annextheatre.org" target="_blank">Annex Theatre</a> February 9 through March 3<br /><br /><strong>The buddy system required by Row Yr Boat LLC means more than just friendship – to fight terrorists, Rose must get married.</strong><br /><br />
 <em>Row Yr Boat &#40;Achievement Unlocked&#41;</em> is a dark, surrealist romantic comedy about drones, video games, unreality and magic, set against the backdrop of the War on Terror. Rose T. O'Brien, an eccentric late-20s gamer with massive confidence issues and a deep competitive streak, goes looking for employment in the virtual reality sector at a major industry conference in Vegas. There, Rose is recruited as a sensor for Row Yr Boat LLC, a company with an unprecedented condition for employment: Rose must be married within the year or lose everything. The condition isn't unreasonable; it’s for her mental health.</section><br />
 <blockquote>&ldquo;We need a play that asks big, political questions through a personal lens. What role does the reality of drones play in our lives and our work? As citizens or soldiers, when are we allowed to act with impunity? We hope the audience will ask these questions and others, even though they don't expect to when the witty banter gets going in the will-they-won't-they exchanges between Rose and her paramours. As a director, that's an exciting challenge, and I believe exactly what makes theatre magical.&rdquo; &mdash; Catherine Blake Smith</blockquote>
-<?php include 'includes/footer.php' ?>
+<?php get_footer()?>

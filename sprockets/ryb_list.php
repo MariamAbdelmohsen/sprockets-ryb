@@ -25,14 +25,14 @@ $sql = "select * from ryb_album";
 $title = 'Row Yr Boat/View/Pager';
 # END CONFIG AREA --------------------------------------------------------------
 
-include 'includes/header.php'?>
+include get_header()?>
 <h1>Row Yr Boat</h1>
 <p><em>All photographs taken by <a href="https://www.facebook.com/DangerpantsPhotography/" target="_blank">Ian Johnston, Dangerpants Photography</a></em></p>
 <hr>
 
 <?php
-$prev = '<img src="img/arrow_prev.gif" border="0" />';
-$next = '<img src="img/arrow_next.gif" border="0" />';
+$prev = '<img src="images/arrow_prev.gif" border="0" />';
+$next = '<img src="images/arrow_next.gif" border="0" />';
 
 #Create a connection
 # connection comes first in mysqli (improved) function
@@ -70,4 +70,4 @@ if(mysqli_num_rows($result) > 0)
     
     
 ?>
-<?php include 'includes/footer.php'?>
+<?php get_footer()?>

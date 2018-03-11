@@ -1,5 +1,5 @@
-<?php include 'includes/config.php' ?>
-<?php include 'includes/header.php' ?>
+<?php include 'includes/config.php'?>
+<?php get_header()?>
 <h2>Contact Us</h2>
 <?php
 //email3.php
@@ -88,14 +88,5 @@ if(isset($_POST['Submit']))
     </form>
     '; 
 }
-?>
-<?php include 'includes/footer.php'; 
-    function cleanblog_clean_post($key)
-{
-        if(isset($_POST[$key])){
-            return strip_tags(trim($_POST[$key]));
-        }else{
-            return '';
-        }
-}
-?>
+
+get_footer()?>
