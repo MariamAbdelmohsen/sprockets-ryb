@@ -25,7 +25,7 @@ $sql = "select * from ryb_album";
 $title = 'Row Yr Boat/View/Pager';
 # END CONFIG AREA --------------------------------------------------------------
 
-include get_header()?>
+get_header()?>
 <h1>Row Yr Boat</h1>
 <p><em>All photographs taken by <a href="https://www.facebook.com/DangerpantsPhotography/" target="_blank">Ian Johnston, Dangerpants Photography</a></em></p>
 <hr>
