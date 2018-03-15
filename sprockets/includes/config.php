@@ -119,6 +119,26 @@ switch(THIS_PAGE){
         $config->slogan = '';
     break;
         
+    case 'admin_login.php':
+        $config->title = 'Admin Login';
+    break;
+
+    case 'admin_dashboard.php':
+        $config->title = 'Admin Dashboard';
+    break;
+        
+    case 'admin_add.php':
+        $config->title = 'Add an Admin';
+    break;
+        
+    case 'admin_reset.php':
+        $config->title = 'Reset an Admin';
+    break;
+        
+    case 'admin_edit.php':
+        $config->title = 'Edit an Admin';
+    break;
+        
     default:
         $config->title = THIS_PAGE;   
 }//end page switch

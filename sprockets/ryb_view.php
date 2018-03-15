@@ -32,7 +32,7 @@ if(mysqli_num_rows($result) > 0)
     }    
 
 }else{//inform there are no records
-    $Feedback = '<p>This customer does not exist!</p>';
+    $Feedback = '<p>This photo does not exist!</p>';
 }
 
 ?>
