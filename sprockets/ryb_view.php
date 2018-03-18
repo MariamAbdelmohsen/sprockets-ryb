@@ -43,8 +43,8 @@ if($Feedback == '')
 {//data exists, show it
 
     echo '<div><p>';
-    echo '<img src="images/ryb-prod/ryb' . $id . '.jpg" /><br />';
-    echo '<blockquote>' . $quote . '</blockquote>';
+    echo '<img class="img-fluid" src="images/ryb-prod/ryb' . $id . '.jpg" /><br />';
+    echo '<span class="caption text-muted">' . $quote . '</span>';
     echo '</p></div>'; 
     
 }else{//warn user no data
